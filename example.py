@@ -1,4 +1,4 @@
-from src.__init__ import tempmail
+from src.lul import tempmail
 
 # create mail istance
 mail = tempmail(sleep_time=4, timeout=None)
